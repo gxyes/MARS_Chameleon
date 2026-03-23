@@ -29,12 +29,12 @@
 </p>
 
 <p align="center">
-  <img src="./images/fig-motivation.png" alt="Chameleon teaser figure" width="76%" />
+  <img src="./images/fig-motivation.png" alt="Chameleon teaser figure" width="78%" />
 </p>
 
-<table align="center">
+<table align="center" width="78%">
   <tr>
-    <td valign="top" width="78%">
+    <td valign="top">
       <b>Abstract.</b> Robotic manipulation often requires memory: occlusion and state changes can make decision-time observations perceptually aliased, making action selection non-Markovian at the observation level because the same observation may arise from different interaction histories. Most embodied agents implement memory via semantically compressed traces and similarity-based retrieval, which discards disambiguating fine-grained perceptual cues and can return perceptually similar but decision-irrelevant episodes. Inspired by human episodic memory, we propose <b>Chameleon</b>, which writes geometry-grounded multimodal tokens to preserve disambiguating context and produces goal-directed recall through a differentiable memory stack. We also introduce <b>Camo-Dataset</b>, a real-robot UR5e dataset spanning episodic recall, spatial tracking, and sequential manipulation under perceptual aliasing. Across tasks, Chameleon consistently improves decision reliability and long-horizon control over strong baselines in perceptually confusable settings.
       <br /><br />
       <img src="./images/mars_lablogo.png" alt="MARS Lab Logo" width="76" align="right" />
@@ -44,7 +44,7 @@
 </table>
 
 <p align="center">
-  <img src="./images/fig-method.png" alt="Chameleon method overview" width="64%" />
+  <img src="./images/fig-method.png" alt="Chameleon method overview" width="78%" />
 </p>
 
 <p align="center">

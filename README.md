@@ -1,7 +1,7 @@
 <h1 align="center">Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation</h1>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/arXiv-TBD-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" /></a>
+  <a href="https://arxiv.org/pdf/2603.24576"><img src="https://img.shields.io/badge/arXiv-2603.24576-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Project_Page-TBD-2ea44f?logo=googlechrome&logoColor=white" alt="Project Page" /></a>
   <a href="https://github.com/gxyes/MARS_Chameleon"><img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="Code" /></a>
   <img src="https://komarev.com/ghpvc/?username=gxyes&repo=MARS_Chameleon&color=blueviolet" alt="Visitors" />

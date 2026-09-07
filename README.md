@@ -11,9 +11,9 @@
   <strong>Xinying Guo</strong><sup>1,2,‡</sup>,
   <strong>Chenxi Jiang</strong><sup>1,‡</sup>,
   <strong>Hyun Bin Kim</strong><sup>1</sup>,
+  <strong>Yuhang Han</strong><sup>3</sup>,
   <strong>Ying Sun</strong><sup>2</sup>,
   <strong>Yang Xiao</strong><sup>1</sup>,
-  <strong>Yuhang Han</strong><sup>3</sup>,
   <strong>Jianfei Yang</strong><sup>1,†</sup>
 </p>
 
@@ -35,7 +35,7 @@
 <table align="center" width="78%">
   <tr>
     <td valign="top">
-      <b>Abstract.</b> Robotic manipulation often requires memory: occlusion and state changes can make decision-time observations perceptually aliased, making action selection non-Markovian at the observation level because the same observation may arise from different interaction histories. Most embodied agents implement memory via semantically compressed traces and similarity-based retrieval, which discards disambiguating fine-grained perceptual cues and can return perceptually similar but decision-irrelevant episodes. Inspired by human episodic memory, we propose <b>Chameleon</b>, which writes geometry-grounded multimodal tokens to preserve disambiguating context and produces goal-directed recall through a differentiable memory stack. We also introduce <b>Camo-Dataset</b>, a real-robot UR5e dataset spanning episodic recall, spatial tracking, and sequential manipulation under perceptual aliasing. Across tasks, Chameleon consistently improves decision reliability and long-horizon control over strong baselines in perceptually confusable settings.
+      <b>Abstract.</b> Robots often observe information that determines a future action long before that action is executed. In a shell game, for example, a robot first sees which cup hides the ball, watches the cups move, and only later needs to choose the correct cup. The final observation alone is not enough for a decision: the correct action depends on an earlier event. We refer to this temporal gap as observation–action delay. It makes memory a policy-facing problem: a policy must keep similar histories distinct, retrieve the past event relevant to the current decision, and convert that recall into an action-ready state. We call these requirements separability, addressability, and prospectiveness. We introduce Chameleon, a ∼60M visuomotor policy for control-indexed prospective memory. Chameleon writes embodied event memory, preserves separable histories, retrieves control-relevant traces, and trains the resulting working state to be prospective. We also introduce Camo-Dataset, a real-robot benchmark that isolates observation–action delay by making the decision scene visually ambiguous, so the correct action must be inferred from earlier observations. Chameleon improves decision/end-to-end success on Camo-Dataset from 22.5%/21.3% to 80.8%/71.3%. On public long-horizon memory benchmarks, it achieves 87.1%±0.8% on LIBERO-10, 97.3%±4.5% on MemoryBench, and 75.1%±1.4% on MIKASA-Robo, setting the state of the art for same-size models and exceeding multiple larger VLA baselines under the reported protocols. Probes and ablations show that Chameleon learns separable, addressable, and prospective memory, and that these properties drive its performance gains.
       <br /><br />
       <img src="./images/mars_lablogo.png" alt="MARS Lab Logo" width="76" align="right" />
       <b>Correspondence:</b> Jianfei Yang at <a href="mailto:jianfei.yang@ntu.edu.sg">jianfei.yang@ntu.edu.sg</a>
@@ -44,7 +44,7 @@
 </table>
 
 <p align="center">
-  <img src="./images/fig-method.png" alt="Chameleon method overview" width="78%" />
+  <i>🎉 Accepted to CoRL 2026! We are excited to share our work with the community.</i>
 </p>
 
 <p align="center">
